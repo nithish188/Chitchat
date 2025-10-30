@@ -1,0 +1,24 @@
+{
+  "name": "chitchat",
+  "version": "1.0.0",
+  "description": "Real Time Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "real",
+    "time",
+    "chat",
+    "app"
+  ],
+  "author": "Gowshika",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  }
+}
